@@ -23,3 +23,5 @@ This is a template to help you make a Space Engineers Plugin.
 
 6. You are done. If you plan to change the project name, you will need to edit `PostBuild.bat` and change the file name of the file ending in `.dll` to your project name.
 
+If you have issues or need help, feel free to make new issue under the issues tab of this repository!
+
