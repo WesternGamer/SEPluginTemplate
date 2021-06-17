@@ -23,5 +23,10 @@ This is a template to help you make a Space Engineers Plugin.
 
 6. You are done. If you plan to change the project name, you will need to edit `PostBuild.bat` and change the file name of the file ending in `.dll` to your project name.
 
+## Build your plugin
+
+To build your plugin, just click start and VS will build your plugin, move the plugin to the plugins folder, and start Space Engineers for you. You just need to enable the plugin in the plugins menu if you have SEPluginLoader installed! If you dont have SEPluginLoader installed, then head over to https://github.com/austinvaness/PluginLoader to see how to install it.
+
 If you have issues or need help, feel free to make new issue under the issues tab of this repository!
+
 
