@@ -9,3 +9,17 @@ This is a template to help you make a Space Engineers Plugin.
 
 2. Extract to file to your directory that has your VS projects. Default is: `C:\Users\[Your User]\source\repos`
 
+3. Open the project folder and edit `PostBuild.bat`
+
+4. Change [Project Location] to the directory of your project root folder. It should be`C:\Users\[Your User]\source\repos\SEPluginTemplate` if your project is in the default directory that VS uses.
+
+5. Save the file.
+
+6. Open Visual Studio and click "Open a project or solution"
+
+7. Select `SEPluginTemplate` then  `SEPluginTemplate.sln`
+
+8. The project should open.
+
+6. You are done. If you plan to change the project name, you will need to edit `PostBuild.bat` and change the file name of the file ending in `.dll` to your project name.
+
