@@ -7,5 +7,5 @@ This is a template to help you make a Space Engineers Plugin.
 1. Download a Zip file copy of this repository. 
 ![Screenshot (517)](https://user-images.githubusercontent.com/80211714/122436743-12449e00-cf67-11eb-9ea0-d139216f11cc.png)
 
-2. Extract to file to your directory that has your VS projects. Default is: `C:\Users\Kevin Nguyen\source\repos`
+2. Extract to file to your directory that has your VS projects. Default is: `C:\Users\[Your User]\source\repos`
 
