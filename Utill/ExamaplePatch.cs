@@ -2,8 +2,6 @@
 
 namespace SEPluginTemplate.Utill
 {
-    internal class ExamplePatch
-    {
         // For more info about how harmony works, go to https://harmony.pardeike.net/
 
         //[HarmonyPatch(typeof([Class To Modify]), "[Method To Modify]")]
@@ -25,5 +23,4 @@ namespace SEPluginTemplate.Utill
         //        
         //    }
         //}
-    }
 }
