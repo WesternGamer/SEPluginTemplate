@@ -15,19 +15,21 @@ This is a template to help you make a Space Engineers Plugin.
 
 5. Save the file.
 
-6. Open Visual Studio and click "Open a project or solution"
+6. Now delete `.gitattributes` and `.gitignore`. These files are for this respository and are not required.
 
-7. Select `SEPluginTemplate` then  `SEPluginTemplate.sln`
+7. Open Visual Studio and click "Open a project or solution"
 
-8. The project should open.
+8. Select `SEPluginTemplate` then  `SEPluginTemplate.sln`
 
-9. You are done. If you plan to change the project name, you will need to edit `PostBuild.bat` and change the file name of the file ending in `.dll` to your project name.
+9. The project should open.
 
-10. You may now edit the project. When your are done, just go to the next section called "Build your plugin."
+10. You are done. If you plan to change the project name, you will need to edit `PostBuild.bat` and change the file name of the file ending in `.dll` to your project name.
+
+11. You may now edit the project. When your are done, just go to the next section called "Build your plugin."
 
 ## Build your plugin
 
-To build your plugin, just click start and VS will build your plugin, move the plugin to the plugins folder, and start Space Engineers for you. You just need to enable the plugin in the plugins menu if you have SEPluginLoader installed! If you dont have SEPluginLoader installed, then head over to https://github.com/austinvaness/PluginLoader to see how to install it.
+To build your plugin, just click start and if you configured `PostBuild.bat` correctly, VS will build your plugin, move the plugin to the plugins folder, and start Space Engineers for you. You just need to enable the plugin in the plugins menu if you have SEPluginLoader installed! If you dont have SEPluginLoader installed, then head over to https://github.com/austinvaness/PluginLoader to see how to install it.
 
 If you have issues or need help, feel free to make new issue under the issues tab of this repository!
 
