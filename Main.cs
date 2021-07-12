@@ -26,12 +26,12 @@ namespace SEPluginTemplate
         /// </summary>
         public void Init(object gameInstance)
         {
-            //Use the code below in this method if you are planning on using Harmony to modify existing game methods. Optional, is not required. You may need to put this code in the other methods shown if Harmony does not seem to work. For more info about how harmony works, go to https://harmony.pardeike.net/
+            //Use the code below in this method if you are planning on using Harmony to modify existing game methods. Optional, is not required. For more info about how harmony works, go to https://harmony.pardeike.net/
 
             // Starts an instance of Harmony
             Harmony harmony = new Harmony("SEPluginTemplate");
             // Patches all patches in the plugin.
-            harmony.PatchAll();
+            Harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
         /// <summary>
