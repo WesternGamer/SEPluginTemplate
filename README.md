@@ -15,7 +15,7 @@ This is a template to help you make a Space Engineers Plugin.
 
 5. Save the file.
 
-6. Now delete `.gitattributes` and `.gitignore`. These files are for this respository and are not required.
+6. Now delete `.gitattributes` and `.gitignore` and `.git` These files are for this respository and are not required.
 
 7. Open Visual Studio and click "Open a project or solution"
 
