@@ -31,7 +31,7 @@ namespace SEPluginTemplate
             // Starts an instance of Harmony
             Harmony harmony = new Harmony("SEPluginTemplate");
             // Patches all patches in the plugin.
-            Harmony.PatchAll(Assembly.GetExecutingAssembly());
+            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
         /// <summary>
