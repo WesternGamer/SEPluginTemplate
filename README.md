@@ -2,6 +2,8 @@
 
 This is a template to help you make a Space Engineers Plugin.
 
+IMPORTANT: If Space Engineers closes and reopens with steam, you will need to create a text file called `steam_appid.txt` in the same directory as your Space Engineers Executable. Put only `244850` in the text file.
+
 ## Setup 
 
 1. Download a Zip file copy of this repository. 
