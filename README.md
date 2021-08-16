@@ -15,6 +15,8 @@ IMPORTANT: If Space Engineers closes and reopens with steam, you will need to cr
 
 4. Change [Project Location] to the directory of your project root folder. It should be`C:\Users\[Your User]\source\repos\SEPluginTemplate` if your project is in the default directory that VS uses.
 
+4.5: Change [Plugin Folder Location] to the directory of your plugins folder. Default is `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\Plugins`.
+
 5. Save the file.
 
 6. Now delete `.gitattributes` and `.gitignore` and `.git` These files are for this respository and are not required.
