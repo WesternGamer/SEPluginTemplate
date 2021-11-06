@@ -2,8 +2,6 @@
 
 This is a template to help you make a Space Engineers Plugin.
 
-IMPORTANT: If Space Engineers closes and reopens with steam, you will need to create a text file called `steam_appid.txt` in the same directory as your Space Engineers Executable. Put only `244850` in the text file.
-
 ## Setup 
 
 1. Download a Zip file copy of this repository. 
@@ -11,15 +9,7 @@ IMPORTANT: If Space Engineers closes and reopens with steam, you will need to cr
 
 2. Extract to file to your directory that has your VS projects. Default is: `C:\Users\[Your User]\source\repos`
 
-3. Open the project folder and edit `PostBuild.bat`
-
-4. Change [Project Location] to the directory of your project root folder. It should be`C:\Users\[Your User]\source\repos\SEPluginTemplate` if your project is in the default directory that VS uses.
-
-4.5: Change [Plugin Folder Location] to the directory of your plugins folder. Default is `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\Plugins`.
-
-5. Save the file.
-
-6. Now delete `.gitattributes` and `.gitignore` and `.git` These files are for this respository and are not required.
+6. Now delete `.gitattributes` and `.gitignore` and `.git` in the root folder of the project These files are for this respository and are not required.
 
 7. Open Visual Studio and click "Open a project or solution"
 
@@ -27,7 +17,7 @@ IMPORTANT: If Space Engineers closes and reopens with steam, you will need to cr
 
 9. The project should open.
 
-10. You are done. If you plan to change the project name, you will need to edit `PostBuild.bat` and change the file name of the file ending in `.dll` to your project name.
+10. Right click on the project file and go to `Build Events>Post-build event command line`. Change `[Plugin Folder Location]` to the location of your plugins folder.
 
 11. You may now edit the project. When your are done, just go to the next section called "Build your plugin."
 

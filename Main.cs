@@ -7,7 +7,7 @@ namespace SEPluginTemplate
     public class Main : IPlugin
     {
         /// <summary>
-        /// Constructor, optional, is not required.
+        /// Called on startup when plugin loads. Constructor, optional, is not required.
         /// </summary>
         public Main()
         {
@@ -23,7 +23,7 @@ namespace SEPluginTemplate
         }
 
         /// <summary>
-        /// Called on startup. This method is required regardless if you are using it or not. If you are not using it, then just don't put anything in the method.
+        /// Called on startup when plugin gets initialized. This method is required regardless if you are using it or not. If you are not using it, then just don't put anything in the method.
         /// </summary>
         public void Init(object gameInstance)
         {
