@@ -9,7 +9,7 @@ namespace SEPluginTemplate
         /// <summary>
         /// Optional, is not required.
         /// </summary>
-        public void Startup()
+        public Main()
         {
 
         }
