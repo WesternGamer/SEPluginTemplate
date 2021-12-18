@@ -1,5 +1,7 @@
 # SEPluginTemplate
 
+Depreciated: Please use [this template](https://github.com/viktor-ferenczi/se-plugin-template) instead.
+
 This is a template to help you make a Space Engineers Plugin.
 
 ## Setup 
